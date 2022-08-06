@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Righteous&display=swap');
+
+.attribution { font-size: 11px; text-align: center; padding-top: 30px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 30px);
+}
+.qr-container{
+    width: 300px;
+    max-width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.qr-container img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.qr-container .texts{
+    padding: 1em 1.7em;
+}
+.qr-container h3{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.qr-container p{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    font-size: .9rem;
+}
